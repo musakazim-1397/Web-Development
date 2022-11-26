@@ -1,0 +1,37 @@
+.navigationBarContainer{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0 3rem;
+}
+
+.navigationBarLogo{
+    font-weight: bold;
+    color: #7b8d87;
+    font-size: 2rem;
+}
+.menuIconContainer{
+    position: relative;
+}
+.menuIcon{
+    z-index: 2;
+    cursor: pointer;
+}
+.menuContainer{
+    width: 110px;
+    height: max-content;
+    position: absolute;
+    background-color: #b7b7b7;
+    z-index: 1;
+    margin-top: -7px;
+    right: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.menuLinks{
+    border-bottom: 1px solid #626262;
+    color: #262525;
+    padding: 0.3rem;
+}
